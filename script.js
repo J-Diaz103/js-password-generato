@@ -33,18 +33,22 @@ function generatePassword() {
   }
 
   if (addSpecial === true) {
-    var choices = mixed.push(specialChars);
+    mixed.push(specialChars);
   }
   if (addNumbers === true) {
-    var choices = mixed.push(nubers);
+    mixed.push(nubers);
   }
   if (addlowecase === true) {
-    var choices = mixed.push(lowerCase);
+    mixed.push(lowerCase);
   }
   if (adduppercase === true) {
-    var choices = mixed.push(upperCase);
+    mixed.push(upperCase);
   }
 
+  if (addSpecial === false && addNumbers === false && addlowecase === false && adduppercase === false) {
+    alert("need to choose at least one option");
+    return;
+  }
   // check progress
   // console.log("mixed " + mixed);
   // console.log("choices " + choices);

@@ -1,2 +1,17 @@
-# js-password-generato
-reviewing class homework's  for review
+# Password Generator
+
+generates randomized passwords based on your needs.
+
+---
+
+## Usage
+
+This web application allows you to generate a randomized password bassed on your choices about the prompts given.
+
+## Contributors 
+
+- Jesus Diaz 
+
+## License & copyright
+
+(c) Jesus Diaz
